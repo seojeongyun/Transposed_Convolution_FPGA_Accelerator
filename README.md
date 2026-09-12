@@ -284,6 +284,22 @@ Clock Frequency   : 135 MHz
 
 ---
 
+## Video Demo
+
+Zybo Z7-20 FPGA에 구현한 **Transposed Convolution Accelerator의 실제 동작 및 PS-PL 검증 과정**을 아래 영상에서 확인할 수 있습니다.
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=hRp8RzAKacU&t=65s">
+    <img src="https://img.youtube.com/vi/hRp8RzAKacU/maxresdefault.jpg" width="75%">
+  </a>
+</p>
+
+<p align="center">
+  <b>▶ Click to watch the FPGA Accelerator Demo</b>
+</p>
+
+---
+
 ## PS-PL Verification Flow
 
 FPGA에서의 전체 검증 과정은 다음과 같이 구성했습니다.
@@ -354,6 +370,9 @@ Transposed_Convolution_FPGA_Accelerator/
 
 * **PS–PL Performance Comparison**  
   135 MHz 환경에서 PS `18.19 μs`, PL `8.01 μs`로 약 **2.27× speedup** 확인
+
+* **FPGA Demonstration**  
+  실제 Zybo Z7-20 FPGA 환경에서 Accelerator 동작 및 PS-PL 검증 과정 시연
 
 ---
 
